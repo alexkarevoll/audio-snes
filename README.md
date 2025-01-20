@@ -1,3 +1,62 @@
+# Audio SNES
+
+A modern web application for manipulating audio with retro-style effects, built with React and Web Audio API.
+
+## Features
+
+- Upload and play audio files
+- Real-time audio manipulation with multiple effects:
+  - Pitch shifting
+  - Tempo/BPM adjustment
+  - Reverb
+  - Distortion
+  - Filter
+  - Delay
+  - Bit Crusher
+  - Chorus
+- Modular effect slots with dynamic effect selection
+- Interactive controls for fine-tuning effect parameters
+
+## Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/alexkarevoll/audio-snes.git
+cd audio-snes
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Start the development server:
+```bash
+npm run dev
+```
+
+4. Open your browser and navigate to `http://localhost:5173`
+
+## Technologies Used
+
+- React
+- TypeScript
+- Vite
+- Web Audio API
+- React Dial Knob
+
+## Development
+
+The project is structured with modular components:
+- `AudioUpload`: Handles file upload and playback
+- `AudioManipulator`: Manages audio processing and effects chain
+- `EffectSlot`: Individual effect modules with controls
+- `EffectSelector`: Modal for selecting and adding effects
+
+## License
+
+MIT License
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
